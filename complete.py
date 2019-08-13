@@ -94,8 +94,6 @@ def comp_algorithm(board):
 
     if board[4] == " ":
         next_space.append(4)
-    elif board[0] == " ":
-        next_space.append(0)
 
     d = defaultdict(list)
     for index, e in enumerate(o_list):
